@@ -1,1 +1,1 @@
-mkdir -p build && cmake -S . -B build && make -C build
+mkdir -p build && cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build && make -C build
